@@ -1,8 +1,8 @@
 class Dotcor < Formula
   desc "Symlink-based dotfile manager with Git integration"
   homepage "https://github.com/justincordova/dotcor"
-  url "https://github.com/justincordova/dotcor/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "c92241f4dd4003b40cc631a48ee0cd166a7171fb6d9fc6e8e1a4ed877e784d04"
+  url "https://github.com/justincordova/dotcor/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "943890a1abd62411d7b1ad3baa4b5b6011b6ebf1c2c36c137d3496d1af95c0b3"
   license "MIT"
   head "https://github.com/justincordova/dotcor.git", branch: "main"
 
