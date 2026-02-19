@@ -8,12 +8,12 @@ class Dotcor < Formula
 
   on_arm do
     url "https://github.com/justincordova/dotcor/releases/download/v1.0.0/dotcor_1.0.0_darwin_arm64.tar.gz"
-    sha256 "4530ede43a8c4981070fd15e11d3a0d8bfc145efa706bc801a0029577e100648"
+    sha256 "2ab4cb3a0733a319035afeaf7b12aadb82474f3267da67f8b0a47e23caf708ef"
   end
 
   on_intel do
     url "https://github.com/justincordova/dotcor/releases/download/v1.0.0/dotcor_1.0.0_darwin_amd64.tar.gz"
-    sha256 "6bc360c3068e6b31a510e0ceda42aba9d25768311719efe60c5f35088a976da3"
+    sha256 "ebaba30de74f08a684944e37b7a3d13ae502955c915fc92b479b519952aa4b5d"
   end
 
   def install
