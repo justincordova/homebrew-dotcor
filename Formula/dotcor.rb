@@ -1,6 +1,7 @@
 class Dotcor < Formula
   desc "Symlink-based dotfile manager with Git integration"
   homepage "https://github.com/justincordova/dotcor"
+  version "1.0.0"
   license "MIT"
 
   depends_on "git"
