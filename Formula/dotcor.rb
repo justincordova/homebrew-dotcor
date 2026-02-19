@@ -1,19 +1,19 @@
 class Dotcor < Formula
   desc "Symlink-based dotfile manager with Git integration"
   homepage "https://github.com/justincordova/dotcor"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   depends_on "git"
 
   on_arm do
-    url "https://github.com/justincordova/dotcor/releases/download/v1.0.1/dotcor_1.0.1_darwin_arm64.tar.gz"
-    sha256 "8471ba1403e4afe6a449e4f8fc4f1a8684c4d3434425c445b3e6b571a4972a70"
+    url "https://github.com/justincordova/dotcor/releases/download/v1.0.2/dotcor_1.0.2_darwin_arm64.tar.gz"
+    sha256 "7e627a2db6fcc5fcc82e787465400e89b8c3d816c5d3706dd77c6bcd648ce339"
   end
 
   on_intel do
-    url "https://github.com/justincordova/dotcor/releases/download/v1.0.1/dotcor_1.0.1_darwin_amd64.tar.gz"
-    sha256 "ff4e8354a22049b2f4a3e719c052b91b7bacd9b12d2daad5f3644f234476ca01"
+    url "https://github.com/justincordova/dotcor/releases/download/v1.0.2/dotcor_1.0.2_darwin_amd64.tar.gz"
+    sha256 "8aa54ac6a51cfb2403056464b919e5ccb69707f6e101bb25199c5b3368ea38b4"
   end
 
   def install
